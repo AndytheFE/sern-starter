@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.red{
+    border: 1px solid red;
+}
+.banner{
+    /* border:1px solid red; */
+    height: 865px;
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+.about-signin{
+    height: 80px;
+    width: 100%;
+}
+
+.navigation-block{
+    float: right;
+}
+.navigation-block a{
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+}
+.sign-in{
+    margin-right: 60px;
+    margin-left: 24px;
+    border: 2px solid greenyellow;
+    border-radius: 1000px;
+}
+.logo{
+    background-image: url('hapoERP.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 165px;
+    margin-bottom: 53px;
+    height: 100px;
+}
+.text{
+    text-align: center;
+    font-style: italic;
+    margin-top: 30px;
+
+}
+.btn-start-now{
+    text-align: center;
+}
+.btn-start-now button{
+    text-transform: uppercase;
+    padding: 8px 16px;
+    border-radius: 1000px;
+    border: 1px solid greenyellow;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.benefits-container{
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-bottom: 53px;
+    overflow: hidden;
+}
+.benefit{
+    width: calc(100%/3);
+    float: left;
+    
+    text-align: center;
+
+}
+.benefit img{
+    width: 52px;
+    height: 48px;
+}
+.benefit .description{
+    display: block;
+    font-size: 36px;
+    line-height: 48px;
+}
